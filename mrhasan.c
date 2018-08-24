@@ -25,7 +25,7 @@ int main(int argc, char *argv[ ])
 {
   if(argc < 6){
     fprintf(stderr, "www.stresser.me MR.HASAN!\n");
-    fprintf(stdout, "Stresser.Me Team\n Kullanim: %s <İP> <PORT> <HİZ)> <PAKET BOYUTU> <KULLANILCAK İŞLEMCİ> <ZAMAN>\n", argv[0]);
+    fprintf(stdout, "Stresser.Me Team\n Kullanim: %s <İP> <PORT> <KULLANILCAK İŞLEMCİ>\n", argv[0]);
     exit(-1);
   }
 
