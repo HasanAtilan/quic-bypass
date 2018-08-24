@@ -2,7 +2,7 @@
 //benim yaptiklarımla bana gelip artislenmeyin
 //hasanatilan.com
 //yargılanıcaksın,eleştirileceksin,alay edilceksin,taklit edilceksin 
-//kimseyi takma hayallerini gerçekleştir herkese iyi kodlamalar dilerim :)
+//kimseyi takma hayallerini gerçekleştir acı olmadan kazanç olmaz herkese iyi kodlamalar dilerim :)
 
 #include <time.h>
 #include <arpa/inet.h>
