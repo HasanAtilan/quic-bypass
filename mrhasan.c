@@ -1,7 +1,8 @@
 //bu script cok güclü scripttir mr.hasan tarafından kodlanmistir
 //benim yaptiklarımla bana gelip artislenmeyin
-//herkesin neyin ne oldugunu cok iyi bilir.
 //hasanatilan.com
+//yargılanıcaksın,eleştirileceksin,alay edilceksin,taklit edilceksin 
+//kimseyi takma hayallerini gerçekleştir herkese iyi kodlamalar dilerim :)
 
 #include <time.h>
 #include <arpa/inet.h>
